@@ -1,0 +1,2060 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//calovo//Calendar Publishing 1.14
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+X-MICROSOFT-CALSCALE:GREGORIAN
+X-WR-CALNAME:FC Bayern München - Spielplan
+X-WR-CALDESC:Hier findest Du alle Spieltermine vom FC Bayern München (FC
+ B) als Terminserie (Kalender) zum Abonnieren mit Deinem persönlichen Kal
+ ender. Das tolle am Abonnieren: sobald neue Spieltage festgelegt sind\, w
+ ird Dein Kalender automatisch aktualisiert. \n\nDas Abonnieren ist für D
+ ich völlig kostenlos und funktioniert mit allen gängigen Kalendern. Kli
+ cke zum Abonnieren von \"FC Bayern München\" einfach auf den Button \"Ka
+ lender abonnieren\".\n\nSei Deinem FCB so nah wie nie zuvor!
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-RELCALID:46a64fca.fd34b490@2.calovo.com
+X-PUBLISHED-TTL:PT30M
+BEGIN:VEVENT
+UID:62b034af84827@2.calovo
+DTSTART;TZID=Europe/Berlin:20220917T153000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20220917T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-augsburg-fc-bayern
+ -muenchen-113?unique_id=62b034af84827
+LOCATION:WWK Arena\, Augsburg
+SUMMARY:FC Augsburg - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 7. Spieltag\n\n FC Bayern live im TV: Sk
+ y\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesli
+ ga/2022-2023/fc-augsburg-fc-bayern-muenchen-17-09-2022/news\n\n Zu den Tic
+ kets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\
+ n\n Ergebnis: 1:0 (0:0)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/
+ de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070705Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034af8f0fd@2.calovo
+DTSTART;TZID=Europe/Berlin:20220930T203000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20220930T223000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ba
+ yer-04-leverkusen-29?unique_id=62b034af8f0fd
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Bayer 04 Leverkusen
+DESCRIPTION:Wettbewerb: Bundesliga 8. Spieltag\n\n FC Bayern live im TV: DA
+ ZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-bayer-04-leverkusen-01-10-2022/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n Ergebnis: 4:0 (3:0)\n\n\n\n\nAnbieter-Impressum: https://fcba
+ yern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loe
+ schen
+DTSTAMP:20230630T070705Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6311e8a2b3c1d@2.calovo
+DTSTART;TZID=Europe/Berlin:20221004T184500
+SEQUENCE:1602
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221004T204500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-fc
+ -viktoria-pilsen?unique_id=6311e8a2b3c1d
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - FC Viktoria Pilsen
+DESCRIPTION:Wettbewerb: Champions League 3. Spieltag\n\n FC Bayern live im 
+ TV: DAZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/c
+ hampions-league/2022-2023/fc-bayern-muenchen-fc-viktoria-pilsen-04-10-2022
+ /news\n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfr
+ agen/EventList.aspx\n\n Ergebnis: 5:0 (3:0)\n\n\n\n\nAnbieter-Impressum: h
+ ttps://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/
+ calfeed_loeschen
+DTSTAMP:20230630T070705Z
+CREATED:20220902T112730Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034af988ae@2.calovo
+DTSTART;TZID=Europe/Berlin:20221008T183000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221008T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/borussia-dortmund-fc-
+ bayern-muenchen-117?unique_id=62b034af988ae
+LOCATION:Signal Iduna Park\, Dortmund
+SUMMARY:Borussia Dortmund - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 9. Spieltag\n\n FC Bayern live im TV: Sk
+ y\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesli
+ ga/2022-2023/borussia-dortmund-fc-bayern-muenchen-08-10-2022/news\n\n Zu d
+ en Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList
+ .aspx\n\n Ergebnis: 2:2 (0:1)\n\n\n\n\nAnbieter-Impressum: https://fcbayer
+ n.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loesch
+ en
+DTSTAMP:20230630T070705Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6311e8a2c909d@2.calovo
+DTSTART;TZID=Europe/Berlin:20221012T210000
+SEQUENCE:1602
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221012T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-viktoria-pilsen-fc
+ -bayern-muenchen?unique_id=6311e8a2c909d
+LOCATION:Doosan Arena\, Plzen
+SUMMARY:FC Viktoria Pilsen - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League 4. Spieltag\n\n FC Bayern live im 
+ TV: DAZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/c
+ hampions-league/2022-2023/fc-viktoria-pilsen-fc-bayern-muenchen-12-10-2022
+ /news\n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfr
+ agen/EventList.aspx\n\n Ergebnis: 2:4 (0:4)\n\n\n\n\nAnbieter-Impressum: h
+ ttps://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/
+ calfeed_loeschen
+DTSTAMP:20230630T070705Z
+CREATED:20220902T112730Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afa2aa1@2.calovo
+DTSTART;TZID=Europe/Berlin:20221016T193000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221016T213000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-sp
+ ort-club-freiburg-5?unique_id=62b034afa2aa1
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Sport-Club Freiburg
+DESCRIPTION:Wettbewerb: Bundesliga 10. Spieltag\n\n FC Bayern live im TV: D
+ AZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundes
+ liga/2022-2023/fc-bayern-muenchen-sport-club-freiburg-15-10-2022/news\n\n 
+ Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/Event
+ List.aspx\n\n Ergebnis: 5:0 (2:0)\n\n\n\n\nAnbieter-Impressum: https://fcb
+ ayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_lo
+ eschen
+DTSTAMP:20230630T070705Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63165b4552176@2.calovo
+DTSTART;TZID=Europe/Berlin:20221019T204500
+SEQUENCE:1601
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221019T224500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-augsburg-fc-bayern
+ -muenchen-114?unique_id=63165b4552176
+LOCATION:WWK Arena\, Augsburg
+SUMMARY:FC Augsburg - FC Bayern München
+DESCRIPTION:Wettbewerb: DFB-Pokal 2. Runde\n\n FC Bayern live im TV: ZDF\, 
+ Sky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/dfb-po
+ kal/2022-2023/dfb-pokal-2.-runde-fc-augsburg-fc-bayern-muenchen-18-19-10-2
+ 022/news\n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufa
+ nfragen/EventList.aspx\n\n Ergebnis: 2:5 (1:1)\n\n\n\n\nAnbieter-Impressum
+ : https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.
+ ly/calfeed_loeschen
+DTSTAMP:20230630T070705Z
+CREATED:20220905T202541Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afadbd3@2.calovo
+DTSTART;TZID=Europe/Berlin:20221022T153000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221022T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/tsg-1899-hoffenheim-f
+ c-bayern-muenchen-10?unique_id=62b034afadbd3
+LOCATION:PreZero Arena\, Sinsheim
+SUMMARY:TSG 1899 Hoffenheim - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 11. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/tsg-1899-hoffenheim-fc-bayern-muenchen-22-10-2022/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n Ergebnis: 0:2 (0:2)\n\n\n\n\nAnbieter-Impressum: https://fcba
+ yern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loe
+ schen
+DTSTAMP:20230630T070705Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6311e8a2e510c@2.calovo
+DTSTART;TZID=Europe/Berlin:20221026T210000
+SEQUENCE:1602
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221026T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-barcelona-fc-bayer
+ n-muenchen-3?unique_id=6311e8a2e510c
+LOCATION:Camp Nou\, Barcelona
+SUMMARY:FC Barcelona - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League 5. Spieltag\n\n FC Bayern live im 
+ TV: DAZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/c
+ hampions-league/2022-2023/fc-barcelona-fc-bayern-muenchen-26-10-2022/news\
+ n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/E
+ ventList.aspx\n\n Ergebnis: 0:3 (0:2)\n\n\n\n\nAnbieter-Impressum: https:/
+ /fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfee
+ d_loeschen
+DTSTAMP:20230630T070705Z
+CREATED:20220902T112730Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afb9374@2.calovo
+DTSTART;TZID=Europe/Berlin:20221029T153000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221029T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fsv-mainz-05-114?unique_id=62b034afb9374
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - 1. FSV Mainz 05
+DESCRIPTION:Wettbewerb: Bundesliga 12. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-1-fsv-mainz-05-29-10-2022/news\n\n Zu den
+  Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.a
+ spx\n\n Ergebnis: 6:2 (3:1)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.
+ com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070705Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070705Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6311e8a302928@2.calovo
+DTSTART;TZID=Europe/Berlin:20221101T210000
+SEQUENCE:1602
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221101T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-in
+ ter-mailand-1?unique_id=6311e8a302928
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Inter Mailand
+DESCRIPTION:Wettbewerb: Champions League 6. Spieltag\n\n FC Bayern live im 
+ TV: Amazon Prime\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/
+ profis/champions-league/2022-2023/fc-bayern-muenchen-inter-mailand-01-11-2
+ 022/news\n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufa
+ nfragen/EventList.aspx\n\n Ergebnis: 2:0 (1:0)\n\n\n\n\nAnbieter-Impressum
+ : https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.
+ ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20220902T112731Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afc6cf4@2.calovo
+DTSTART;TZID=Europe/Berlin:20221105T153000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221105T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/hertha-bsc-fc-bayern-
+ muenchen-115?unique_id=62b034afc6cf4
+LOCATION:Olympiastadion\, Berlin
+SUMMARY:Hertha BSC - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 13. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/hertha-bsc-fc-bayern-muenchen-05-11-2022/news\n\n Zu den Tic
+ kets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\
+ n\n Ergebnis: 2:3 (2:3)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/
+ de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afd37f0@2.calovo
+DTSTART;TZID=Europe/Berlin:20221108T203000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221108T223000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-sv
+ -werder-bremen-110?unique_id=62b034afd37f0
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - SV Werder Bremen
+DESCRIPTION:Wettbewerb: Bundesliga 14. Spieltag\n\n FC Bayern live im TV: S
+ ky\, SAT.1\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis
+ /bundesliga/2022-2023/fc-bayern-muenchen-sv-werder-bremen-08-11-2022/news\
+ n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/E
+ ventList.aspx\n\n Ergebnis: 6:1 (4:1)\n\n\n\n\nAnbieter-Impressum: https:/
+ /fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfee
+ d_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afe129d@2.calovo
+DTSTART;TZID=Europe/Berlin:20221112T183000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20221112T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-schalke-04-fc-baye
+ rn-muenchen-106?unique_id=62b034afe129d
+LOCATION:VELTINS-Arena\, Gelsenkirchen
+SUMMARY:FC Schalke 04 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 15. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-schalke-04-fc-bayern-muenchen-12-11-2022/news\n\n Zu den 
+ Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.as
+ px\n\n Ergebnis: 0:2 (0:1)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.c
+ om/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63dce4ef34afc@2.calovo
+DTSTART;TZID=Europe/Berlin:20230113T180000
+SEQUENCE:1287
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230113T200000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-fc
+ -red-bull-salzburg?unique_id=63dce4ef34afc
+LOCATION:Spielstätte des FC Bayern Campus
+SUMMARY:FC Bayern München - FC Red Bull Salzburg
+DESCRIPTION:Wettbewerb: Freundschaftsspiel Testspiel\n\n FC Bayern live im 
+ TV: fcbayern.com\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/
+ profis/friendly/2022-2023/testspiel-fc-bayern-fc-red-bull-salzburg-13-01-2
+ 023/news\n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufa
+ nfragen/EventList.aspx\n\n Ergebnis: 4:4 (1:1)\n\n\n\n\nAnbieter-Impressum
+ : https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.
+ ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20230203T104151Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034afeb662@2.calovo
+DTSTART;TZID=Europe/Berlin:20230120T203000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230120T223000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/rb-leipzig-fc-bayern-
+ muenchen-16?unique_id=62b034afeb662
+LOCATION:Red Bull Arena Leipzig\, Leipzig
+SUMMARY:RB Leipzig - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 16. Spieltag\n\n FC Bayern live im TV: D
+ AZN\, SAT.1\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profi
+ s/bundesliga/2022-2023/rb-leipzig-fc-bayern-muenchen-21-01-2023/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n Ergebnis: 1:1 (0:1)\n\n\n\n\nAnbieter-Impressum: https://fcba
+ yern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loe
+ schen
+DTSTAMP:20230630T070706Z
+CREATED:20220620T084951Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13f7be12@2.calovo
+DTSTART;TZID=Europe/Berlin:20230124T203000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230124T223000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fc-koeln-80?unique_id=6363c13f7be12
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - 1. FC Köln
+DESCRIPTION:Wettbewerb: Bundesliga 17. Spieltag\n\n FC Bayern live im TV: S
+ ky\, SAT.1\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis
+ /bundesliga/2022-2023/fc-bayern-muenchen-1-fc-koeln-24-01-2023/news\n\n Zu
+  den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventLi
+ st.aspx\n\n Ergebnis: 1:1 (0:1)\n\n\n\n\nAnbieter-Impressum: https://fcbay
+ ern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loes
+ chen
+DTSTAMP:20230630T070706Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13f88a1d@2.calovo
+DTSTART;TZID=Europe/Berlin:20230128T183000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230128T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ei
+ ntracht-frankfurt-117?unique_id=6363c13f88a1d
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Eintracht Frankfurt
+DESCRIPTION:Wettbewerb: Bundesliga 18. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-eintracht-frankfurt-28-01-2023/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n Ergebnis: 1:1 (1:0)\n\n\n\n\nAnbieter-Impressum: https://fcba
+ yern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loe
+ schen
+DTSTAMP:20230630T070706Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13f946a6@2.calovo
+DTSTART;TZID=Europe/Berlin:20230201T204500
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230201T224500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fsv-mainz-05-fc-bay
+ ern-muenchen-55?unique_id=6363c13f946a6
+LOCATION:MEWA Arena\, Mainz
+SUMMARY:1. FSV Mainz 05 - FC Bayern München
+DESCRIPTION:Wettbewerb: DFB-Pokal Achtelfinale\n\n FC Bayern live im TV: AR
+ D\, Sky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/df
+ b-pokal/2022-2023/dfb-pokal-achtelfinale-1.-fsv-mainz-05-fc-bayern-muenche
+ n-31-01-2023/news\n\n Zu den Tickets: https://tickets.fcbayern.com/interne
+ tverkaufanfragen/EventList.aspx\n\n Ergebnis: 0:4 (0:3)\n\n\n\n\nAnbieter-
+ Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleit
+ ung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13faa44c@2.calovo
+DTSTART;TZID=Europe/Berlin:20230205T173000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230205T193000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/vfl-wolfsburg-fc-baye
+ rn-muenchen-183?unique_id=6363c13faa44c
+LOCATION:Volkswagen Arena\, Wolfsburg
+SUMMARY:VfL Wolfsburg - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 19. Spieltag\n\n FC Bayern live im TV: D
+ AZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundes
+ liga/2022-2023/vfl-wolfsburg-fc-bayern-muenchen-04-02-2023/news\n\n Zu den
+  Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.a
+ spx\n\n Ergebnis: 2:4 (1:3)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.
+ com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13fb633f@2.calovo
+DTSTART;TZID=Europe/Berlin:20230211T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230211T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-vf
+ l-bochum-1848-3?unique_id=6363c13fb633f
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - VfL Bochum 1848
+DESCRIPTION:Wettbewerb: Bundesliga 20. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-vfl-bochum-1848-11-02-2023/news\n\n Zu de
+ n Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 3:0 (1:0)\n\n\n\n
+ \nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösc
+ hen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63693199a46fa@2.calovo
+DTSTART;TZID=Europe/Berlin:20230214T210000
+SEQUENCE:1561
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230214T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/paris-saint-germain-f
+ c-bayern-muenchen-2?unique_id=63693199a46fa
+LOCATION:Parc des Princes\, Paris
+SUMMARY:Paris Saint-Germain - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League Achtelfinale Hinspiel\n\n FC Bayer
+ n live im TV: Amazon Prime\n\n Alle Infos zum Spiel: https://fcbayern.com/
+ de/spiele/profis/champions-league/2022-2023/paris-saint-germain-fc-bayern-
+ muenchen-14-02-2023/news\n\n Zu den Tickets: https://fcbayern.com/de/ticke
+ ts\n\n Ergebnis: 0:1 (0:0)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.c
+ om/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070706Z
+CREATED:20221107T162601Z
+LAST-MODIFIED:20230630T070706Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13fcc086@2.calovo
+DTSTART;TZID=Europe/Berlin:20230218T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230218T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/borussia-moenchenglad
+ bach-fc-bayern-muenchen-9?unique_id=6363c13fcc086
+LOCATION:Borussia-Park\, Mönchengladbach
+SUMMARY:Borussia Mönchengladbach - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 21. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/borussia-moenchengladbach-fc-bayern-muenchen-18-02-2023/news
+ \n\n Zu den Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 3:2 (1:
+ 1)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncal
+ feed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13fdd6b4@2.calovo
+DTSTART;TZID=Europe/Berlin:20230226T173000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230226T193000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fc-union-berlin-7?unique_id=6363c13fdd6b4
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - 1. FC Union Berlin
+DESCRIPTION:Wettbewerb: Bundesliga 22. Spieltag\n\n FC Bayern live im TV: D
+ AZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundes
+ liga/2022-2023/fc-bayern-muenchen-1-fc-union-berlin-25-02-2023/news\n\n Zu
+  den Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 3:0 (3:0)\n\n\
+ n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed l
+ öschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c13feb86b@2.calovo
+DTSTART;TZID=Europe/Berlin:20230304T183000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230304T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/vfb-stuttgart-fc-baye
+ rn-muenchen-112?unique_id=6363c13feb86b
+LOCATION:Mercedes-Benz Arena\, Stuttgart
+SUMMARY:VfB Stuttgart - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 23. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/vfb-stuttgart-fc-bayern-muenchen-04-03-2023/news\n\n Zu den 
+ Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 1:2 (0:1)\n\n\n\n\n
+ Anbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösche
+ n? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132519Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6369319a13fa0@2.calovo
+DTSTART;TZID=Europe/Berlin:20230308T210000
+SEQUENCE:1561
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230308T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-pa
+ ris-saint-germain-5?unique_id=6369319a13fa0
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Paris Saint-Germain
+DESCRIPTION:Wettbewerb: Champions League Achtelfinale Rückspiel\n\n FC Bay
+ ern live im TV: DAZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spi
+ ele/profis/champions-league/2022-2023/fc-bayern-muenchen-paris-saint-germa
+ in-07-03-2023/news\n\n Zu den Tickets: https://fcbayern.com/de/tickets\n\n
+  Ergebnis: 2:0 (0:0)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221107T162602Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c1400aa3b@2.calovo
+DTSTART;TZID=Europe/Berlin:20230311T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230311T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-fc
+ -augsburg-46?unique_id=6363c1400aa3b
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - FC Augsburg
+DESCRIPTION:Wettbewerb: Bundesliga 24. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-fc-augsburg-11-03-2023/news\n\n Zu den Ti
+ ckets: https://fcbayern.com/de/tickets\n\n Ergebnis: 5:3 (4:1)\n\n\n\n\nAn
+ bieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen?
+  Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c1401db2b@2.calovo
+DTSTART;TZID=Europe/Berlin:20230319T173000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230319T193000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/bayer-04-leverkusen-f
+ c-bayern-muenchen-118?unique_id=6363c1401db2b
+LOCATION:BayArena\, Leverkusen
+SUMMARY:Bayer 04 Leverkusen - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 25. Spieltag\n\n FC Bayern live im TV: D
+ AZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundes
+ liga/2022-2023/bayer-04-leverkusen-fc-bayern-muenchen-18-03-2023/news\n\n 
+ Zu den Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 2:1 (0:1)\n\
+ n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed 
+ löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c1402d199@2.calovo
+DTSTART;TZID=Europe/Berlin:20230401T183000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230401T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-bo
+ russia-dortmund-70?unique_id=6363c1402d199
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Borussia Dortmund
+DESCRIPTION:Wettbewerb: Bundesliga 26. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-borussia-dortmund-01-04-2023/news\n\n Zu 
+ den Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 4:2 (3:0)\n\n\n
+ \n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lö
+ schen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:63f28e6fe4a5f@2.calovo
+DTSTART;TZID=Europe/Berlin:20230404T204500
+SEQUENCE:1142
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230404T224500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-sp
+ ort-club-freiburg-6?unique_id=63f28e6fe4a5f
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Sport-Club Freiburg
+DESCRIPTION:Wettbewerb: DFB-Pokal Viertelfinale\n\n FC Bayern live im TV: S
+ ky\, ARD\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/d
+ fb-pokal/2022-2023/dfb-pokal-viertelfinale-fc-bayern-muenchen---sport-club
+ -freiburg/news\n\n Zu den Tickets: https://fcbayern.com/de/tickets\n\n Erg
+ ebnis: 1:2 (1:1)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impr
+ essum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20230219T210239Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c14039fde@2.calovo
+DTSTART;TZID=Europe/Berlin:20230408T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230408T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sport-club-freiburg-f
+ c-bayern-muenchen-11?unique_id=6363c14039fde
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+SUMMARY:Sport-Club Freiburg - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 27. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/sport-club-freiburg-fc-bayern-muenchen-08-04-2023/news\n\n Z
+ u den Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 0:1 (0:0)\n\n
+ \n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed l
+ öschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6414775b327a6@2.calovo
+DTSTART;TZID=Europe/Berlin:20230411T210000
+SEQUENCE:919
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230411T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/manchester-city-fc-ba
+ yern-muenchen?unique_id=6414775b327a6
+LOCATION:Etihad Stadium\, Manchester
+SUMMARY:Manchester City - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League Viertelfinale Hinspiel\n\n Alle In
+ fos zum Spiel: https://fcbayern.com/de/spiele/profis/champions-league/2022
+ -2023/manchester-city-fc-bayern-muenchen-11-04-2023/news\n\n Ergebnis: 3:0
+  (1:0)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\
+ ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20230317T142115Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c1404b52e@2.calovo
+DTSTART;TZID=Europe/Berlin:20230415T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230415T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ts
+ g-1899-hoffenheim-12?unique_id=6363c1404b52e
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - TSG 1899 Hoffenheim
+DESCRIPTION:Wettbewerb: Bundesliga 28. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-tsg-1899-hoffenheim-15-04-2023/news\n\n Z
+ u den Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 1:1 (1:0)\n\n
+ \n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed l
+ öschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6414775b4fd74@2.calovo
+DTSTART;TZID=Europe/Berlin:20230419T210000
+SEQUENCE:919
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230419T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ma
+ nchester-city-4?unique_id=6414775b4fd74
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Manchester City
+DESCRIPTION:Wettbewerb: Champions League Viertelfinale Rückspiel\n\n FC Ba
+ yern live im TV: DAZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/sp
+ iele/profis/champions-league/2022-2023/fc-bayern-muenchen-manchester-city-
+ 19-04-2023/news\n\n Ergebnis: 1:1 (0:0)\n\n\n\n\nAnbieter-Impressum: https
+ ://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calf
+ eed_loeschen
+DTSTAMP:20230630T070707Z
+CREATED:20230317T142115Z
+LAST-MODIFIED:20230630T070707Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c140586c6@2.calovo
+DTSTART;TZID=Europe/Berlin:20230422T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230422T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fsv-mainz-05-fc-bay
+ ern-muenchen-56?unique_id=6363c140586c6
+LOCATION:MEWA Arena\, Mainz
+SUMMARY:1. FSV Mainz 05 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 29. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/1-fsv-mainz-05-fc-bayern-muenchen-22-04-2023/news\n\n Zu den
+  Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 3:1 (0:1)\n\n\n\n\
+ nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösch
+ en? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070708Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070708Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c14066c34@2.calovo
+DTSTART;TZID=Europe/Berlin:20230430T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230430T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-he
+ rtha-bsc-112?unique_id=6363c14066c34
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Hertha BSC
+DESCRIPTION:Wettbewerb: Bundesliga 30. Spieltag\n\n FC Bayern live im TV: D
+ AZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundes
+ liga/2022-2023/fc-bayern-muenchen-hertha-bsc-29-04-2023/news\n\n Zu den Ti
+ ckets: https://fcbayern.com/de/tickets\n\n Ergebnis: 2:0 (0:0)\n\n\n\n\nAn
+ bieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen?
+  Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070708Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070708Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c14071e41@2.calovo
+DTSTART;TZID=Europe/Berlin:20230506T183000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230506T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sv-werder-bremen-fc-b
+ ayern-muenchen-74?unique_id=6363c14071e41
+LOCATION:Weserstadion\, Bremen
+SUMMARY:SV Werder Bremen - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 31. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/sv-werder-bremen-fc-bayern-muenchen-06-05-2023/news\n\n Zu d
+ en Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 1:2 (0:0)\n\n\n\
+ n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lös
+ chen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070708Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070708Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c1407bbed@2.calovo
+DTSTART;TZID=Europe/Berlin:20230513T153000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230513T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-fc
+ -schalke-04-112?unique_id=6363c1407bbed
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - FC Schalke 04
+DESCRIPTION:Wettbewerb: Bundesliga 32. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-fc-schalke-04-13-05-2023/news\n\n Zu den 
+ Tickets: https://fcbayern.com/de/tickets\n\n Ergebnis: 6:0 (2:0)\n\n\n\n\n
+ Anbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösche
+ n? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070708Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070708Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6363c1408b211@2.calovo
+DTSTART;TZID=Europe/Berlin:20230520T183000
+SEQUENCE:1598
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230520T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-rb
+ -leipzig-23?unique_id=6363c1408b211
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - RB Leipzig
+DESCRIPTION:Wettbewerb: Bundesliga 33. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/fc-bayern-muenchen-rb-leipzig-20-05-2023/news\n\n Zu den Tic
+ kets: https://fcbayern.com/de/tickets\n\n Ergebnis: 1:3 (1:0)\n\n\n\n\nAnb
+ ieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? 
+ Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070708Z
+CREATED:20221103T132520Z
+LAST-MODIFIED:20230630T070708Z
+END:VEVENT
+BEGIN:VEVENT
+UID:62b034b0d4de3@2.calovo
+DTSTART;TZID=Europe/Berlin:20230527T153000
+SEQUENCE:1605
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230527T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fc-koeln-fc-bayern-
+ muenchen-112?unique_id=62b034b0d4de3
+LOCATION:RheinEnergieStadion\, Köln
+SUMMARY:1. FC Köln - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 34. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2022-2023/1-fc-koeln-fc-bayern-muenchen-27-05-2023/news\n\n Zu den Tic
+ kets: https://fcbayern.com/de/tickets\n\n Ergebnis: 1:2 (0:1)\n\n\n\n\nAnb
+ ieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? 
+ Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230630T070708Z
+CREATED:20220620T084952Z
+LAST-MODIFIED:20230630T070708Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1c3c460@2.calovo
+DTSTART;TZID=Europe/Berlin:20230718T183000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230718T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-rottach-egern-fc-b
+ ayern-muenchen-2?unique_id=64c38d1c3c460
+LOCATION:Sportplatz Birkenmoos\, Rottach-Egern
+SUMMARY:FC Rottach-Egern - FC Bayern München
+DESCRIPTION:Wettbewerb: Freundschaftsspiel Testspiel\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/friendly/2023-2024/testspiel-fc-
+ rottach-egern-fc-bayern-18.07.2023/news\n\n Ergebnis: 0:27 (0:18)\n\n\n\n\
+ nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösch
+ en? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115601Z
+CREATED:20230728T094044Z
+LAST-MODIFIED:20230915T115601Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296caee553@2.calovo
+DTSTART;TZID=Europe/Berlin:20230726T123000
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230726T143000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ma
+ nchester-city-5?unique_id=64a296caee553
+LOCATION:Neues Nationalstadion\, Tokio
+SUMMARY:FC Bayern München - Manchester City
+DESCRIPTION:Wettbewerb: Audi Football Summit Testspiel\n\n Alle Infos zum S
+ piel: https://fcbayern.com/de/spiele/profis/friendly/2023-2024/audi-footba
+ ll-summit-fc-bayern-manchester-city-26.07.2023/news\n\n Ergebnis: 1:2 (0:1
+ )\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalf
+ eed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115603Z
+CREATED:20230703T093714Z
+LAST-MODIFIED:20230915T115603Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cb1e66d@2.calovo
+DTSTART;TZID=Europe/Berlin:20230729T120000
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230729T140000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/kawasaki-frontale-fc-
+ bayern-muenchen?unique_id=64a296cb1e66d
+LOCATION:Neues Nationalstadion\, Tokio
+SUMMARY:Kawasaki Frontale - FC Bayern München
+DESCRIPTION:Wettbewerb: Audi Football Summit Testspiel\n\n FC Bayern live i
+ m TV: FC Bayern TV Plus\, Sky\, DAZN\n\n Alle Infos zum Spiel: https://fcb
+ ayern.com/de/spiele/profis/friendly/2023-2024/audi-football-summit-kawasak
+ i-frontale-fc-bayern-29.07.2023/news\n\n Ergebnis: 0:1 (0:0)\n\n\n\n\nAnbi
+ eter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? A
+ nleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115604Z
+CREATED:20230703T093715Z
+LAST-MODIFIED:20230915T115604Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cb372bf@2.calovo
+DTSTART;TZID=Europe/Berlin:20230802T133000
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230802T153000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-liverpool-fc-bayer
+ n-muenchen-1?unique_id=64a296cb372bf
+LOCATION:Nationalstadion Singapur
+SUMMARY:FC Liverpool - FC Bayern München
+DESCRIPTION:Wettbewerb: Singapore Trophy Testspiel\n\n FC Bayern live im TV
+ : RTL\, FC Bayern TV Plus\, DAZN\, Sky\n\n Alle Infos zum Spiel: https://f
+ cbayern.com/de/spiele/profis/friendly/2023-2024/singapore-trophy-fc-liverp
+ ool-fc-bayern-02.08.2023/news\n\n Zu den Tickets: https://premier.ticketek
+ .com.sg/shows/Show.aspx?sh=LPVSBM\n\n Ergebnis: 3:4 (2:2)\n\n\n\n\nAnbiete
+ r-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anle
+ itung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115604Z
+CREATED:20230703T093715Z
+LAST-MODIFIED:20230915T115604Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1cbde67@2.calovo
+DTSTART;TZID=Europe/Berlin:20230807T170000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230807T190000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-as
+ -monaco?unique_id=64c38d1cbde67
+LOCATION:Alpenbauer Sportpark
+SUMMARY:FC Bayern München - AS Monaco
+DESCRIPTION:Wettbewerb: Freundschaftsspiel Testspiel\n\n FC Bayern live im 
+ TV: RTL\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/fr
+ iendly/2023-2024/testspiel-fc-bayern-as-monaco-07.08.2023/news\n\n Zu den 
+ Tickets: https://tickets.snec.de/shop?hiqp=$_hqpMzBGeDZuNEhwZEx4N3N3NFJqTE
+ tET2szVEhXVS91RzB6WFBNaVFDczMwRDFHbHVQeWliSVJoSmlKN1dOYmRxdnZMYXUvQzduNkdC
+ WFR3SDhwRS84c29neUNxTThnMmpGR0F6Z2FITEw5MXEvaHdmQ2NSM2w0RjZnOWZhNm54UW4rUX
+ ZTNVpGNXA4LzVHN2RhWWlZS3lkSnExbVdYT0pnVjJDb3k1bXRGTjlFNmE5M0trSk1VcHc5TWdt
+ VnhxUmUyT09VWkQ4emMrVjN0VDloT1Y1azhma1VwS0FJS0EzUm81dUk4dENpS1c1MjhEenNjV1
+ hUT082RmV1bGpoS3gySXd3UXFrQzBwM2x0SWhwbEZvRnpCUU00alBnWmNmR3dsM0M4bkwrMXo1
+ aDdIbks0RitXTWlIOWFzaHVVbUk2VzRlZEd5dW1aSw==\n\n Ergebnis: 4:2 (3:1)\n\n\n
+ \n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lö
+ schen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115605Z
+CREATED:20230728T094044Z
+LAST-MODIFIED:20230915T115605Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cb4c155@2.calovo
+DTSTART;TZID=Europe/Berlin:20230812T204500
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230812T224500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-rb
+ -leipzig-24?unique_id=64a296cb4c155
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - RB Leipzig
+DESCRIPTION:Wettbewerb: Supercup Finale\n\n FC Bayern live im TV: SAT.1\, S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/supercu
+ p/2023-2024/supercup-finale-fc-bayern-muenchen-rb-leipzig-12.08.2023/news\
+ n\n Ergebnis: 0:3 (0:2)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/
+ de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115606Z
+CREATED:20230703T093715Z
+LAST-MODIFIED:20230915T115606Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cb648f4@2.calovo
+DTSTART;TZID=Europe/Berlin:20230818T203000
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230818T223000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sv-werder-bremen-fc-b
+ ayern-muenchen-75?unique_id=64a296cb648f4
+LOCATION:Weserstadion\, Bremen
+SUMMARY:SV Werder Bremen - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 1. Spieltag\n\n FC Bayern live im TV: DA
+ ZN\, SAT.1\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis
+ /bundesliga/2023-2024/sv-werder-bremen-fc-bayern-muenchen-18-08-2023/news\
+ n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/E
+ ventList.aspx\n\n Ergebnis: 0:4 (0:1)\n\n\n\n\nAnbieter-Impressum: https:/
+ /fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfee
+ d_loeschen
+DTSTAMP:20230915T115607Z
+CREATED:20230703T093715Z
+LAST-MODIFIED:20230915T115607Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1d16df1@2.calovo
+DTSTART;TZID=Europe/Berlin:20230819T150000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230819T170000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/weinbeisser-kaltern-f
+ c-bayern-muenchen?unique_id=64c38d1d16df1
+LOCATION:Bezirkssportanlage St. Anton\, Kaltern an der Weinstraße
+SUMMARY:Weinbeisser Kaltern - FC Bayern München
+DESCRIPTION:Wettbewerb: Freundschaftsspiel Testspiel\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/friendly/2023-2024/traumspiel-we
+ inbeisser-kaltern-fc-bayern-19.08.2023/news\n\n Ergebnis: 1:6 (1:2)\n\n\n\
+ n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lös
+ chen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115607Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115607Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1d4d8b9@2.calovo
+DTSTART;TZID=Europe/Berlin:20230827T173000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230827T193000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-fc
+ -augsburg-48?unique_id=64c38d1d4d8b9
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - FC Augsburg
+DESCRIPTION:Wettbewerb: Bundesliga 2. Spieltag\n\n FC Bayern live im TV: DA
+ ZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2023-2024/fc-bayern-muenchen-fc-augsburg-26-08-2023/news\n\n Zu den Ti
+ ckets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx
+ \n\n Ergebnis: 3:1 (2:0)\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com
+ /de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115607Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115607Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1d63816@2.calovo
+DTSTART;TZID=Europe/Berlin:20230902T183000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230902T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/borussia-moenchenglad
+ bach-fc-bayern-muenchen-11?unique_id=64c38d1d63816
+LOCATION:Borussia-Park\, Mönchengladbach
+SUMMARY:Borussia Mönchengladbach - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 3. Spieltag\n\n FC Bayern live im TV: Sk
+ y\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesli
+ ga/2023-2024/borussia-moenchengladbach-fc-bayern-muenchen-02-09-2023/news\
+ n\n Zu den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/E
+ ventList.aspx\n\n Ergebnis: 1:2 (1:0)\n\n\n\n\nAnbieter-Impressum: https:/
+ /fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfee
+ d_loeschen
+DTSTAMP:20230915T115608Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115608Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1d8991b@2.calovo
+DTSTART;TZID=Europe/Berlin:20230915T203000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230915T223000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ba
+ yer-04-leverkusen-31?unique_id=64c38d1d8991b
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Bayer 04 Leverkusen
+DESCRIPTION:Wettbewerb: Bundesliga 4. Spieltag\n\n FC Bayern live im TV: DA
+ ZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2023-2024/fc-bayern-muenchen-bayer-04-leverkusen-16-09-2023/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\
+ n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115608Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115608Z
+END:VEVENT
+BEGIN:VEVENT
+UID:65003b075b04a@2.calovo
+DTSTART;TZID=Europe/Berlin:20230920T210000
+SEQUENCE:27
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230920T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ma
+ nchester-united-3?unique_id=65003b075b04a
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Manchester United
+DESCRIPTION:Wettbewerb: Champions League 1. Spieltag\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/champions-league/2023-2024/fc-ba
+ yern-muenchen-manchester-united-20-09-2023/news\n\n Zu den Tickets: https:
+ //tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n\n\n\nAnb
+ ieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? 
+ Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115608Z
+CREATED:20230912T101847Z
+LAST-MODIFIED:20230915T115608Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1d9cb77@2.calovo
+DTSTART;TZID=Europe/Berlin:20230923T153000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230923T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-vf
+ l-bochum-1848-5?unique_id=64c38d1d9cb77
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - VfL Bochum 1848
+DESCRIPTION:Wettbewerb: Bundesliga 5. Spieltag\n\n FC Bayern live im TV: Sk
+ y\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesli
+ ga/2023-2024/fc-bayern-muenchen-vfl-bochum-1848-23-09-2023/news\n\n Zu den
+  Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.a
+ spx\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\nca
+ lfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115609Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115609Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cbe8c2a@2.calovo
+DTSTART;TZID=Europe/Berlin:20230926T204500
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230926T224500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sc-preussen-muenster-
+ fc-bayern-muenchen?unique_id=64a296cbe8c2a
+LOCATION:Preußenstadion\, Münster
+SUMMARY:SC Preußen Münster - FC Bayern München
+DESCRIPTION:Wettbewerb: DFB-Pokal 1. Runde\n\n FC Bayern live im TV: Sky\, 
+ ZDF\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/dfb-po
+ kal/2023-2024/sc-preussen-muenster-fc-bayern-muenchen-25-09-2023/news\n\n\
+ n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed l
+ öschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115609Z
+CREATED:20230703T093715Z
+LAST-MODIFIED:20230915T115609Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1dbf7a1@2.calovo
+DTSTART;TZID=Europe/Berlin:20230930T183000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20230930T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/rb-leipzig-fc-bayern-
+ muenchen-18?unique_id=64c38d1dbf7a1
+LOCATION:Red Bull Arena Leipzig\, Leipzig
+SUMMARY:RB Leipzig - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 6. Spieltag\n\n FC Bayern live im TV: Sk
+ y\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesli
+ ga/2023-2024/rb-leipzig-fc-bayern-muenchen-30-09-2023/news\n\n Zu den Tick
+ ets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n
+ \n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed
+  löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115609Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115609Z
+END:VEVENT
+BEGIN:VEVENT
+UID:65003b082b739@2.calovo
+DTSTART;TZID=Europe/Berlin:20231003T210000
+SEQUENCE:27
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231003T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-kopenhagen-fc-baye
+ rn-muenchen?unique_id=65003b082b739
+LOCATION:Parken Stadion\, Kopenhagen
+SUMMARY:FC Kopenhagen - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League 2. Spieltag\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/champions-league/2023-2024/fc-ko
+ penhagen-fc-bayern-muenchen-03-10-2023/news\n\n Zu den Tickets: https://ti
+ ckets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n\n\n\nAnbiete
+ r-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anle
+ itung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115609Z
+CREATED:20230912T101848Z
+LAST-MODIFIED:20230915T115609Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1dd3057@2.calovo
+DTSTART;TZID=Europe/Berlin:20231008T173000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231008T193000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-sp
+ ort-club-freiburg-8?unique_id=64c38d1dd3057
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Sport-Club Freiburg
+DESCRIPTION:Wettbewerb: Bundesliga 7. Spieltag\n\n FC Bayern live im TV: DA
+ ZN\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2023-2024/fc-bayern-muenchen-sport-club-freiburg-07-10-2023/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\
+ n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115610Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115610Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1de1208@2.calovo
+DTSTART;TZID=Europe/Berlin:20231021T183000
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231021T203000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fsv-mainz-05-fc-bay
+ ern-muenchen-58?unique_id=64c38d1de1208
+LOCATION:MEWA Arena\, Mainz
+SUMMARY:1. FSV Mainz 05 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 8. Spieltag\n\n FC Bayern live im TV: Sk
+ y\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesli
+ ga/2023-2024/1-fsv-mainz-05-fc-bayern-muenchen-21-10-2023/news\n\n Zu den 
+ Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventList.as
+ px\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncal
+ feed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115610Z
+CREATED:20230728T094045Z
+LAST-MODIFIED:20230915T115610Z
+END:VEVENT
+BEGIN:VEVENT
+UID:65003b08dc731@2.calovo
+DTSTART;TZID=Europe/Berlin:20231024T184500
+SEQUENCE:27
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231024T204500
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/galatasaray-istanbul-
+ fc-bayern-muenchen?unique_id=65003b08dc731
+LOCATION:Rams Park\, Istanbul
+SUMMARY:Galatasaray Istanbul - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League 3. Spieltag\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/champions-league/2023-2024/galat
+ asaray-istanbul-fc-bayern-muenchen-24-10-2023/news\n\n Zu den Tickets: htt
+ ps://tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n\n\n\n
+ Anbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösche
+ n? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115610Z
+CREATED:20230912T101848Z
+LAST-MODIFIED:20230915T115610Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1df4057@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231027
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231028
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-sv
+ -darmstadt-98-130?unique_id=64c38d1df4057
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - SV Darmstadt 98
+DESCRIPTION:Wettbewerb: Bundesliga 9. Spieltag\n\n Alle Infos zum Spiel: ht
+ tps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muenche
+ n-sv-darmstadt-98-28-10-2023/news\n\n Zu den Tickets: https://tickets.fcba
+ yern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch 
+ nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/imp
+ ressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115610Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115610Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1e0ca29@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231103
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231104
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/borussia-dortmund-fc-
+ bayern-muenchen-119?unique_id=64c38d1e0ca29
+LOCATION:Signal Iduna Park\, Dortmund
+SUMMARY:*Borussia Dortmund - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 10. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/borussia-dortmun
+ d-fc-bayern-muenchen-04-11-2023/news\n\n Zu den Tickets: https://tickets.f
+ cbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde no
+ ch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115611Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115611Z
+END:VEVENT
+BEGIN:VEVENT
+UID:65003b09489ab@2.calovo
+DTSTART;TZID=Europe/Berlin:20231108T210000
+SEQUENCE:27
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231108T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ga
+ latasaray-istanbul?unique_id=65003b09489ab
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - Galatasaray Istanbul
+DESCRIPTION:Wettbewerb: Champions League 4. Spieltag\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/champions-league/2023-2024/fc-ba
+ yern-muenchen-galatasaray-istanbul-08-11-2023/news\n\n Zu den Tickets: htt
+ ps://tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n\n\n\n
+ Anbieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed lösche
+ n? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115611Z
+CREATED:20230912T101849Z
+LAST-MODIFIED:20230915T115611Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1e20137@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231110
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231111
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fc-heidenheim-1846-2?unique_id=64c38d1e20137
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - 1. FC Heidenheim 1846
+DESCRIPTION:Wettbewerb: Bundesliga 11. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-1-fc-heidenheim-1846-11-11-2023/news\n\n Zu den Tickets: https://ticket
+ s.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde
+  noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/
+ de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115611Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115611Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1e3adec@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231124
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231125
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fc-koeln-fc-bayern-
+ muenchen-114?unique_id=64c38d1e3adec
+LOCATION:RheinEnergieStadion\, Köln
+SUMMARY:*1. FC Köln - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 12. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/1-fc-koeln-fc-ba
+ yern-muenchen-25-11-2023/news\n\n Zu den Tickets: https://tickets.fcbayern
+ .com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch nich
+ t terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impress
+ um\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115611Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115611Z
+END:VEVENT
+BEGIN:VEVENT
+UID:65003b09c638c@2.calovo
+DTSTART;TZID=Europe/Berlin:20231129T210000
+SEQUENCE:27
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231129T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-fc
+ -kopenhagen?unique_id=65003b09c638c
+LOCATION:Allianz Arena\, München
+SUMMARY:FC Bayern München - FC Kopenhagen
+DESCRIPTION:Wettbewerb: Champions League 5. Spieltag\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/champions-league/2023-2024/fc-ba
+ yern-muenchen-fc-kopenhagen-29-11-2023/news\n\n Zu den Tickets: https://ti
+ ckets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n\n\n\nAnbiete
+ r-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? Anle
+ itung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115611Z
+CREATED:20230912T101849Z
+LAST-MODIFIED:20230915T115611Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1e5e646@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231201
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231202
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fc-union-berlin-9?unique_id=64c38d1e5e646
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - 1. FC Union Berlin
+DESCRIPTION:Wettbewerb: Bundesliga 13. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-1-fc-union-berlin-02-12-2023/news\n\n Zu den Tickets: https://tickets.f
+ cbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde no
+ ch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115612Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115612Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1e7d4a8@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231208
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231209
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/eintracht-frankfurt-f
+ c-bayern-muenchen-90?unique_id=64c38d1e7d4a8
+LOCATION:Deutsche Bank Park\, Frankfurt am Main
+SUMMARY:*Eintracht Frankfurt - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 14. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/eintracht-frankf
+ urt-fc-bayern-muenchen-09-12-2023/news\n\n Zu den Tickets: https://tickets
+ .fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde 
+ noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/d
+ e/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115612Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115612Z
+END:VEVENT
+BEGIN:VEVENT
+UID:65003b0a4d957@2.calovo
+DTSTART;TZID=Europe/Berlin:20231212T210000
+SEQUENCE:27
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20231212T230000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/manchester-united-fc-
+ bayern-muenchen?unique_id=65003b0a4d957
+LOCATION:Old Trafford\, Manchester
+SUMMARY:Manchester United - FC Bayern München
+DESCRIPTION:Wettbewerb: Champions League 6. Spieltag\n\n Alle Infos zum Spi
+ el: https://fcbayern.com/de/spiele/profis/champions-league/2023-2024/manch
+ ester-united-fc-bayern-muenchen-12-12-2023/news\n\n Zu den Tickets: https:
+ //tickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n\n\n\nAnb
+ ieter-Impressum: https://fcbayern.com/de/impressum\n\n\ncalfeed löschen? 
+ Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115612Z
+CREATED:20230912T101850Z
+LAST-MODIFIED:20230915T115612Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1eb1bed@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231215
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231216
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-vf
+ b-stuttgart-93?unique_id=64c38d1eb1bed
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - VfB Stuttgart
+DESCRIPTION:Wettbewerb: Bundesliga 15. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-vfb-stuttgart-16-12-2023/news\n\n Zu den Tickets: https://tickets.fcbay
+ ern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch n
+ icht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impr
+ essum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115612Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115612Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1ede184@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20231219
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20231220
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/vfl-wolfsburg-fc-baye
+ rn-muenchen-185?unique_id=64c38d1ede184
+LOCATION:Volkswagen Arena\, Wolfsburg
+SUMMARY:*VfL Wolfsburg - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 16. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/vfl-wolfsburg-fc
+ -bayern-muenchen-20-12-2023/news\n\n Zu den Tickets: https://tickets.fcbay
+ ern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch n
+ icht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impr
+ essum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115613Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115613Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1eef954@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240112
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240113
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ts
+ g-1899-hoffenheim-14?unique_id=64c38d1eef954
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - TSG 1899 Hoffenheim
+DESCRIPTION:Wettbewerb: Bundesliga 17. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-tsg-1899-hoffenheim-13-01-2024/news\n\n Zu den Tickets: https://tickets
+ .fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde 
+ noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/d
+ e/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115613Z
+CREATED:20230728T094046Z
+LAST-MODIFIED:20230915T115613Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1f3703c@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240119
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240120
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-sv
+ -werder-bremen-112?unique_id=64c38d1f3703c
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - SV Werder Bremen
+DESCRIPTION:Wettbewerb: Bundesliga 18. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-sv-werder-bremen-20-01-2024/news\n\n Zu den Tickets: https://tickets.fc
+ bayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noc
+ h nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/i
+ mpressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115613Z
+CREATED:20230728T094047Z
+LAST-MODIFIED:20230915T115613Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1f63d3a@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240126
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240127
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-augsburg-fc-bayern
+ -muenchen-116?unique_id=64c38d1f63d3a
+LOCATION:WWK Arena\, Augsburg
+SUMMARY:*FC Augsburg - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 19. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-augsburg-fc-b
+ ayern-muenchen-27-01-2024/news\n\n Zu den Tickets: https://tickets.fcbayer
+ n.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch nic
+ ht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impres
+ sum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115613Z
+CREATED:20230728T094047Z
+LAST-MODIFIED:20230915T115613Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1f7d42e@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240202
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240203
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-bo
+ russia-moenchengladbach-13?unique_id=64c38d1f7d42e
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - Borussia Mönchengladbach
+DESCRIPTION:Wettbewerb: Bundesliga 20. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-borussia-moenchengladbach-03-02-2024/news\n\n Zu den Tickets: https://t
+ ickets.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel 
+ wurde noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern
+ .com/de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loesche
+ n
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115614Z
+CREATED:20230728T094047Z
+LAST-MODIFIED:20230915T115614Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1f9d013@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240209
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240210
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/bayer-04-leverkusen-f
+ c-bayern-muenchen-120?unique_id=64c38d1f9d013
+LOCATION:BayArena\, Leverkusen
+SUMMARY:*Bayer 04 Leverkusen - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 21. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/bayer-04-leverku
+ sen-fc-bayern-muenchen-10-02-2024/news\n\n Zu den Tickets: https://tickets
+ .fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde 
+ noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/d
+ e/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115614Z
+CREATED:20230728T094047Z
+LAST-MODIFIED:20230915T115614Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d1fb1b26@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240216
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240217
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/vfl-bochum-1848-fc-ba
+ yern-muenchen-7?unique_id=64c38d1fb1b26
+LOCATION:Vonovia Ruhrstadion\, Bochum
+SUMMARY:*VfL Bochum 1848 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 22. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/vfl-bochum-1848-
+ fc-bayern-muenchen-17-02-2024/news\n\n Zu den Tickets: https://tickets.fcb
+ ayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch
+  nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/im
+ pressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115614Z
+CREATED:20230728T094047Z
+LAST-MODIFIED:20230915T115614Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d20178ad@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240223
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240224
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-rb
+ -leipzig-26?unique_id=64c38d20178ad
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - RB Leipzig
+DESCRIPTION:Wettbewerb: Bundesliga 23. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-rb-leipzig-24-02-2024/news\n\n Zu den Tickets: https://tickets.fcbayern
+ .com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch nich
+ t terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impress
+ um\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115615Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115615Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d2038a18@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240301
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240302
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sport-club-freiburg-f
+ c-bayern-muenchen-13?unique_id=64c38d2038a18
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+SUMMARY:*Sport-Club Freiburg - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 24. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/sport-club-freib
+ urg-fc-bayern-muenchen-02-03-2024/news\n\n Zu den Tickets: https://tickets
+ .fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde 
+ noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/d
+ e/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115615Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115615Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cf00de2@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240308
+SEQUENCE:0
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240309
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fsv-mainz-05-115?unique_id=64a296cf00de2
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - 1. FSV Mainz 05
+DESCRIPTION:Wettbewerb: Bundesliga 25. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-1-fsv-mainz-05-09-03-2024/news\n\n Zu den Tickets: https://tickets.fcba
+ yern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch 
+ nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/imp
+ ressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230703T093719Z
+CREATED:20230703T093719Z
+LAST-MODIFIED:20230703T093719Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d2049f5c@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240308
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240309
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fsv-mainz-05-116?unique_id=64c38d2049f5c
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - 1. FSV Mainz 05
+DESCRIPTION:Wettbewerb: Bundesliga 25. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-1-fsv-mainz-05-09-03-2024/news\n\n Zu den Tickets: https://tickets.fcba
+ yern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch 
+ nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/imp
+ ressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115615Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115615Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d206ea6e@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240315
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240316
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sv-darmstadt-98-fc-ba
+ yern-muenchen-40?unique_id=64c38d206ea6e
+LOCATION:Merck-Stadion am Böllenfalltor\, Darmstadt
+SUMMARY:*SV Darmstadt 98 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 26. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/sv-darmstadt-98-
+ fc-bayern-muenchen-16-03-2024/news\n\n Zu den Tickets: https://tickets.fcb
+ ayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch
+  nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/im
+ pressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115615Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115615Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cf274dc@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240315
+SEQUENCE:0
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240316
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/sv-darmstadt-98-fc-ba
+ yern-muenchen?unique_id=64a296cf274dc
+LOCATION:Merck-Stadion am Böllenfalltor\, Darmstadt
+SUMMARY:*SV Darmstadt 98 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 26. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/sv-darmstadt-98-
+ fc-bayern-muenchen-16-03-2024/news\n\n Zu den Tickets: https://tickets.fcb
+ ayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch
+  nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/im
+ pressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230703T093719Z
+CREATED:20230703T093719Z
+LAST-MODIFIED:20230703T093719Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d207d0f8@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240330
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240331
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-bo
+ russia-dortmund-72?unique_id=64c38d207d0f8
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - Borussia Dortmund
+DESCRIPTION:Wettbewerb: Bundesliga 27. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-borussia-dortmund-30-03-2024/news\n\n Zu den Tickets: https://tickets.f
+ cbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde no
+ ch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115616Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115616Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cf499fa@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240330
+SEQUENCE:0
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240331
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-bo
+ russia-dortmund-71?unique_id=64a296cf499fa
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - Borussia Dortmund
+DESCRIPTION:Wettbewerb: Bundesliga 27. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-borussia-dortmund-30-03-2024/news\n\n Zu den Tickets: https://tickets.f
+ cbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde no
+ ch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230703T093719Z
+CREATED:20230703T093719Z
+LAST-MODIFIED:20230703T093719Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d208e63a@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240405
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240406
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fc-heidenheim-1846-
+ fc-bayern-muenchen-1?unique_id=64c38d208e63a
+LOCATION:Voith-Arena\, Heidenheim
+SUMMARY:*1. FC Heidenheim 1846 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 28. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/1-fc-heidenheim-
+ 1846-fc-bayern-muenchen-06-04-2024/news\n\n Zu den Tickets: https://ticket
+ s.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde
+  noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/
+ de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115617Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115617Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cf781da@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240405
+SEQUENCE:0
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240406
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fc-heidenheim-1846-
+ fc-bayern-muenchen?unique_id=64a296cf781da
+LOCATION:Voith-Arena\, Heidenheim
+SUMMARY:*1. FC Heidenheim 1846 - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 28. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/1-fc-heidenheim-
+ 1846-fc-bayern-muenchen-06-04-2024/news\n\n Zu den Tickets: https://ticket
+ s.fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde
+  noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/
+ de/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230703T093719Z
+CREATED:20230703T093719Z
+LAST-MODIFIED:20230703T093719Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d20a5a4f@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240412
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240413
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fc-koeln-82?unique_id=64c38d20a5a4f
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - 1. FC Köln
+DESCRIPTION:Wettbewerb: Bundesliga 29. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-1-fc-koeln-13-04-2024/news\n\n Zu den Tickets: https://tickets.fcbayern
+ .com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch nich
+ t terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impress
+ um\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115617Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115617Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cfa46ad@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240412
+SEQUENCE:0
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240413
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-1-
+ fc-koeln-81?unique_id=64a296cfa46ad
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - 1. FC Köln
+DESCRIPTION:Wettbewerb: Bundesliga 29. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-1-fc-koeln-13-04-2024/news\n\n Zu den Tickets: https://tickets.fcbayern
+ .com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch nich
+ t terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impress
+ um\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230703T093719Z
+CREATED:20230703T093719Z
+LAST-MODIFIED:20230703T093719Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d20b4488@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240419
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240420
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fc-union-berlin-fc-
+ bayern-muenchen-8?unique_id=64c38d20b4488
+LOCATION:Stadion an der Alten Försterei\, Berlin
+SUMMARY:*1. FC Union Berlin - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 30. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/1-fc-union-berli
+ n-fc-bayern-muenchen-20-04-2024/news\n\n Zu den Tickets: https://tickets.f
+ cbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde no
+ ch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115618Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115618Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296cfbc079@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240419
+SEQUENCE:0
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240420
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/1-fc-union-berlin-fc-
+ bayern-muenchen-7?unique_id=64a296cfbc079
+LOCATION:Stadion an der Alten Försterei\, Berlin
+SUMMARY:*1. FC Union Berlin - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 30. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/1-fc-union-berli
+ n-fc-bayern-muenchen-20-04-2024/news\n\n Zu den Tickets: https://tickets.f
+ cbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde no
+ ch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/
+ impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230703T093719Z
+CREATED:20230703T093719Z
+LAST-MODIFIED:20230703T093719Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d20c1740@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240426
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240427
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-ei
+ ntracht-frankfurt-119?unique_id=64c38d20c1740
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - Eintracht Frankfurt
+DESCRIPTION:Wettbewerb: Bundesliga 31. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-eintracht-frankfurt-27-04-2024/news\n\n Zu den Tickets: https://tickets
+ .fcbayern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde 
+ noch nicht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/d
+ e/impressum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115618Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115618Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d20cd57d@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240503
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240504
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/vfb-stuttgart-fc-baye
+ rn-muenchen-114?unique_id=64c38d20cd57d
+LOCATION:Mercedes-Benz Arena\, Stuttgart
+SUMMARY:*VfB Stuttgart - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 32. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/vfb-stuttgart-fc
+ -bayern-muenchen-04-05-2024/news\n\n Zu den Tickets: https://tickets.fcbay
+ ern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch n
+ icht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impr
+ essum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115619Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115619Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64c38d20e4fe7@2.calovo
+DTSTART;TZID=Europe/Berlin;VALUE=DATE:20240510
+SEQUENCE:303
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin;VALUE=DATE:20240511
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/fc-bayern-muenchen-vf
+ l-wolfsburg-53?unique_id=64c38d20e4fe7
+LOCATION:Allianz Arena\, München
+SUMMARY:*FC Bayern München - VfL Wolfsburg
+DESCRIPTION:Wettbewerb: Bundesliga 33. Spieltag\n\n Alle Infos zum Spiel: h
+ ttps://fcbayern.com/de/spiele/profis/bundesliga/2023-2024/fc-bayern-muench
+ en-vfl-wolfsburg-11-05-2024/news\n\n Zu den Tickets: https://tickets.fcbay
+ ern.com/internetverkaufanfragen/EventList.aspx\n\n *Das Spiel wurde noch n
+ icht terminiert.\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impr
+ essum\n\n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+DTSTAMP:20230915T115619Z
+CREATED:20230728T094048Z
+LAST-MODIFIED:20230915T115619Z
+END:VEVENT
+BEGIN:VEVENT
+UID:64a296d0468aa@2.calovo
+DTSTART;TZID=Europe/Berlin:20240518T153000
+SEQUENCE:304
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTEND;TZID=Europe/Berlin:20240518T173000
+URL:https://calovo.de/e/fcbayern/bundesliga-spielplan/tsg-1899-hoffenheim-f
+ c-bayern-muenchen-11?unique_id=64a296d0468aa
+LOCATION:PreZero Arena\, Sinsheim
+SUMMARY:TSG 1899 Hoffenheim - FC Bayern München
+DESCRIPTION:Wettbewerb: Bundesliga 34. Spieltag\n\n FC Bayern live im TV: S
+ ky\n\n Alle Infos zum Spiel: https://fcbayern.com/de/spiele/profis/bundesl
+ iga/2023-2024/tsg-1899-hoffenheim-fc-bayern-muenchen-18-05-2024/news\n\n Z
+ u den Tickets: https://tickets.fcbayern.com/internetverkaufanfragen/EventL
+ ist.aspx\n\n\n\n\nAnbieter-Impressum: https://fcbayern.com/de/impressum\n\
+ n\ncalfeed löschen? Anleitung: bit.ly/calfeed_loeschen
+DTSTAMP:20230915T115620Z
+CREATED:20230703T093720Z
+LAST-MODIFIED:20230915T115620Z
+END:VEVENT
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19810329T030000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+END:VCALENDAR
