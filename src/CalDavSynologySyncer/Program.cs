@@ -138,9 +138,8 @@ public static class Program
             .Enrich.FromLogContext()
             .Enrich.WithExceptionDetails()
             .Enrich.WithMachineName()
-            .WriteTo.Console(outputTemplate: customTemplate);            
-            // Todo: Enable back.
-            //.WriteTo.Telegram(Configuration.TelegramBotToken, Configuration.TelegramChatId, restrictedToMinimumLevel: LogEventLevel.Warning);
+            .WriteTo.Console(outputTemplate: customTemplate)           
+            .WriteTo.Telegram(Configuration.TelegramBotToken, Configuration.TelegramChatId, restrictedToMinimumLevel: LogEventLevel.Warning);
 
         if (EnvironmentName != "Development")
         {
