@@ -3,7 +3,7 @@ CalDavSynologySyncer
 
 CalDavSynologySyncer is an executable to sync an ICAL calendar with Synology (or another CalDAV server).
 
-[![Build status](https://ci.appveyor.com/api/projects/status/socbxolntnn4tbtx?svg=true)](https://ci.appveyor.com/project/SeppPenner/caldavsynologysyncer)
+[![Build status](https://ci.appveyor.com/api/projects/status/unx5utao802c3vat?svg=true)](https://ci.appveyor.com/project/SeppPenner/caldavsynologysyncer)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/CalDavSynologySyncer.svg)](https://github.com/SeppPenner/CalDavSynologySyncer/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/CalDavSynologySyncer.svg)](https://github.com/SeppPenner/CalDavSynologySyncer/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/CalDavSynologySyncer.svg)](https://github.com/SeppPenner/CalDavSynologySyncer/stargazers)
