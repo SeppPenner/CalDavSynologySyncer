@@ -19,6 +19,9 @@ CalDavSynologySyncer is an executable to sync an ICAL calendar with Synology (or
 ## Net Core and Net Framework latest and LTS versions
 * https://dotnet.microsoft.com/download/dotnet
 
+## How to use
+Check out the [HowToUse](https://github.com/SeppPenner/CalDavSynologySyncer/blob/master/HowToUse.md) file.
+
 Change history
 --------------
 
