@@ -13,6 +13,18 @@ CalDavSynologySyncer is an executable to sync an ICAL calendar with Synology (or
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white)](https://patreon.com/SeppPennerOpenSourceDevelopment)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?logo=paypal&logoColor=white)](https://paypal.me/th070795)
 
+Docker:
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/sepppenner/caldavsynologysyncer)](https://hub.docker.com/repository/docker/sepppenner/caldavsynologysyncer)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/sepppenner/caldavsynologysyncer?sort=date)](https://hub.docker.com/repository/docker/sepppenner/caldavsynologysyncer)
+[![Docker Stars](https://img.shields.io/docker/stars/sepppenner/caldavsynologysyncer)](https://hub.docker.com/repository/docker/sepppenner/caldavsynologysyncer)
+
+Docker (ARM):
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/sepppenner/caldavsynologysyncer-arm)](https://hub.docker.com/repository/docker/sepppenner/caldavsynologysyncer-arm)
+[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/sepppenner/caldavsynologysyncer-arm?sort=date)](https://hub.docker.com/repository/docker/sepppenner/caldavsynologysyncer-arm)
+[![Docker Stars](https://img.shields.io/docker/stars/sepppenner/caldavsynologysyncer-arm)](https://hub.docker.com/repository/docker/sepppenner/caldavsynologysyncer-arm)
+
 ## Available for
 * Net 8.0
 
