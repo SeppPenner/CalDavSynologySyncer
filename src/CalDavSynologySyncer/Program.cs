@@ -138,8 +138,13 @@ public static class Program
             .Enrich.FromLogContext()
             .Enrich.WithExceptionDetails()
             .Enrich.WithMachineName()
-            .WriteTo.Console(outputTemplate: customTemplate)           
-            .WriteTo.Telegram(Configuration.TelegramBotToken, Configuration.TelegramChatId, restrictedToMinimumLevel: LogEventLevel.Warning);
+            .WriteTo.Console(outputTemplate: customTemplate);
+
+        if (!string.IsNullOrWhiteSpace(Configuration.TelegramBotToken))
+        {
+            loggerConfiguration
+                .WriteTo.Telegram(Configuration.TelegramBotToken, Configuration.TelegramChatId, restrictedToMinimumLevel: LogEventLevel.Warning);
+        }
 
         if (EnvironmentName != "Development")
         {

@@ -90,16 +90,6 @@ public sealed class SyncerConfiguration
             throw new ConfigurationException("The heartbeat interval is invalid.");
         }
 
-        if (string.IsNullOrWhiteSpace(this.TelegramBotToken))
-        {
-            throw new ConfigurationException("The Telegram bot token is not set.");
-        }
-
-        if (string.IsNullOrWhiteSpace(this.TelegramChatId))
-        {
-            throw new ConfigurationException("The Telegram chat identifier is not set.");
-        }
-
         if (string.IsNullOrWhiteSpace(this.SynologyUserName))
         {
             throw new ConfigurationException("The Synology user name is not set.");
