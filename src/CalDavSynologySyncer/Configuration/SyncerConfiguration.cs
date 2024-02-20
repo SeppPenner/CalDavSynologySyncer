@@ -60,6 +60,11 @@ public sealed class SyncerConfiguration
     public string SynologyPassword { get; set; } = string.Empty;
 
     /// <summary>
+    /// Gets or sets a value indicating whether the entries with star '*' should be removed from the target Synology calendar or not.
+    /// </summary>
+    public bool RemoveEntriesWithStar { get; set; }
+
+    /// <summary>
     /// Gets a value indicating whether the configuration is valid or not.
     /// </summary>
     /// <returns>A <see cref="bool"/> value indicating whether the configuration is valid or not.</returns>

@@ -16,6 +16,7 @@
         "SynologyPassword": "password", // The Synology password
         "TelegramBotToken": "111111111:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", // A bot token from Telegram to send error logs to a chat, follow https://core.telegram.org/bots/api
         "TelegramChatId": "2222222" // The chat id on Telegram
+        "RemoveEntriesWithStar": true // A value indicating whether the entries with star '*' should be removed from the target Synology calendar or not (These entries are often handled as preliminary events)
     }
 }
 ```

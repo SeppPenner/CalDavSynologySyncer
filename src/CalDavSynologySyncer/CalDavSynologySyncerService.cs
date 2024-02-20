@@ -138,7 +138,7 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
 
                 if (synologyCalendar is null)
                 {
-                    this.Logger.Information("Synology calendar not found");
+                    this.Logger.Error("Synology calendar not found");
                     return;
                 }
 
@@ -427,6 +427,55 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
                                     this.Logger.Error("Unable to save event {Event} to calendar", icalEvent.ToJsonString());
                                     continue;
                                 }
+                            }
+                        }
+                    }
+                }
+
+                // Remove all entries that start with a '*' from the Synology calendar and have a corresponding entry
+                // without a star in the Synology calendar within a certain tie range.
+                if (this.ServiceConfiguration.RemoveEntriesWithStar)
+                {
+                    var synologyEntriesWithStar = synologyCalendar.Events
+                        .Where(c => c is CalendarEvent && c is not null)
+                        .Where(c => c.Summary.StartsWith("*"))
+                        .ToList();
+
+                    foreach (var synologyEntryWithStar in synologyEntriesWithStar)
+                    {
+                        var correspondingCalendarEntries = synologyCalendar.Events
+                            .Where(c => c is CalendarEvent && c is not null)
+                            .Where(c => c.Summary == synologyEntryWithStar.Summary.Substring(1));
+
+                        // If there is no corresponding entry, skip the deletion.
+                        if (correspondingCalendarEntries.Count() == 0)
+                        {
+                            continue;
+                        }
+
+                        // If there is more than 1 corresponding entry, log a warning and skip the deletion.
+                        if (correspondingCalendarEntries.Count() > 1)
+                        {
+                            this.Logger.Warning("Found {Count} corresponding entries for entry with star {Summary}",
+                                correspondingCalendarEntries.Count(),
+                                synologyEntryWithStar.Summary);
+                            continue;
+                        }
+
+                        // Get the first and only entry.
+                        var correspondingCalendarEntry = correspondingCalendarEntries.First();
+                        var timeDifference = correspondingCalendarEntry.DtStart.AsDateTimeOffset - synologyEntryWithStar.DtStart.AsDateTimeOffset;
+                        var timeDifferenceAbsolute = Math.Abs(timeDifference.TotalDays);
+
+                        // If the time difference is less than 4 days (absolute), delete the entry.
+                        if (timeDifferenceAbsolute < 4)
+                        {
+                            var deletedEvent = await this.calDavClient.DeleteEvent(correspondingCalendarEntry);
+
+                            if (!deletedEvent)
+                            {
+                                this.Logger.Error("Couldn't delete entry with star {Summary}", synologyEntryWithStar.Summary);
+                                continue;
                             }
                         }
                     }
