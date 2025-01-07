@@ -28,6 +28,7 @@
         <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
         <PackageReference Include="Serilog.Sinks.Telegram.Alternative" Version="1.4.3" />
         <PackageReference Include="HaemmerElectronics.SeppPenner.CalDAVNet" Version="1.0.3" />
+        <PackageReference Include="System.Private.Uri" Version="4.3.2" />
     </ItemGroup>
 
 </Project>
