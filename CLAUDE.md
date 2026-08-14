@@ -211,6 +211,17 @@ Do not silently "clean up" these, they are existing behaviour:
   environment and the `CMD`. `dotnet publish --output publish/` has to run first, in
   `src/CalDavSynologySyncer`, which is also the build context. The two files are identical except
   for the `--platform=linux/arm/v7` in `Dockerfile.armv7`.
+- **`docker build` needs `--platform` and `--provenance=false`.** `FROM --platform=linux/arm/v7`
+  alone is not enough: BuildKit then writes the platform of the **build machine** into the OCI image
+  index, so the ARM tag advertises `amd64` and an ARM host fails with "no matching manifest".
+  `--provenance=false` drops the attestation manifest and pushes a plain manifest, the format the
+  images had up to version 1.1.1. Both flags are in the two batch files, keep them there.
+- **The image tag has to be built from the tagged commit.** GitVersion counts up from the last tag,
+  so the commit that adds the binaries already carries the next version: an image built there says
+  `1.1.3.0` while the tag says `1.1.2`. Build and push the images while `git describe` returns the
+  plain version, before the `Updated binaries.` commit or from a detached checkout of the tag.
+- **The `docker login` line of the two batch files starts with `@`.** Command echo is on in both
+  files, without the `@` cmd prints the expanded `%DOCKERHUB_CLI_TOKEN%` on the console.
 - **The publish folder is not ignored.** `src/CalDavSynologySyncer/publish` is the output of every
   build script and of the Docker build, but `.gitignore` does not list it, so it shows up as
   untracked. Never `git add -A` in this repository without looking at what that collects.
@@ -248,13 +259,15 @@ Do not silently "clean up" these, they are existing behaviour:
    the shipped assembly.
 6. Run `buildForWindows.bat` and `buildForLinuxArm64.bat`, delete
    `src/CalDavSynologySyncer/publish/appsettings.Development.json`, zip the two publish outputs into
-   `Published/<version>/win-x64.zip` and `Published/<version>/linux-arm64.zip` and commit them. List
-   the zip content before committing, the publish folder is reused between runs and the development
-   configuration is copied into it on every publish.
-7. Push the commits and the tag.
-8. `buildAndUploadDocker.bat` and `buildAndUploadDockerForArm.bat` publish, build the image, log in
+   `Published/<version>/win-x64.zip` and `Published/<version>/linux-arm64.zip`. List the zip content
+   before committing, the publish folder is reused between runs and the development configuration is
+   copied into it on every publish. Delete the publish folder between the two runs, otherwise the
+   binary of the other platform ends up in the zip.
+7. `buildAndUploadDocker.bat` and `buildAndUploadDockerForArm.bat` publish, build the image, log in
    with `DOCKERHUB_CLI_TOKEN` from the environment and push to Docker Hub. Never run them unless
-   explicitly asked to publish.
+   explicitly asked to publish. Run them **before** the commit with the binaries, the version comes
+   from `git describe`.
+8. Commit the binaries with the message `Updated binaries.` and push the commits and the tag.
 
 The version in `Changelog.md` has four parts (`1.1.2.0`), the tag has three (`1.1.2`), the Docker
 tag has three as well. GitVersion turns the tag into the assembly version.
