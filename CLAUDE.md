@@ -83,8 +83,7 @@ dotnet build src/CalDavSynologySyncer.sln -c Release
 Follow the surrounding code, it is consistent throughout every file:
 
 - File header comment block with `<copyright file="..." company="Hämmer Electronics">` and a
-  `<summary>`, then the file-scoped namespace. `Helpers/FileHelper.cs` is the one file without that
-  header.
+  `<summary>`, then the file-scoped namespace.
 - XML doc comments on every type and every member, private members included, no exceptions.
   Overrides of `BackgroundService` additionally carry `<inheritdoc cref="BackgroundService"/>`, the
   class itself carries `<seealso cref="BackgroundService"/>` as well.
@@ -140,17 +139,24 @@ Do not silently "clean up" these, they are existing behaviour:
 - **Telegram logging is optional, the rest is not.** `SetupLogging` only adds the Telegram sink when
   `TelegramBotToken` is set, and it only sends `Warning` and above. There is no file sink at all,
   the console is the log.
-- **ICS files live next to the assembly, but are written relative to the working directory.**
-  `LoadCalendarFileFromServer` writes `yyyyMMdd_HHmmss.ics` with a relative path, so it lands in the
-  current working directory, while the cleanup loop at the start of every cycle scans the assembly
-  directory. In Docker both are `/app` and it works, elsewhere it does not have to.
-- **`appsettings.json` is read with a relative path too.** `ReadConfiguration` calls
-  `AddJsonFile("appsettings.json", false, true)` without a base path, so the file has to be in the
-  working directory of the process.
-- **The star rule.** Events whose summary starts with `*` are preliminary. When
-  `RemoveEntriesWithStar` is on, such an event is compared with the event of the same summary
-  without the star, and if exactly one exists and both start less than four days apart, one of them
-  is deleted. The four days are hard coded.
+- **ICS files live next to the assembly, not in the working directory.** `LoadCalendarFileFromServer`
+  builds the path from `Assembly.GetExecutingAssembly().Location`, and the cleanup loop at the start
+  of every cycle deletes with `FileInfo.FullName`. Both have to stay absolute: up to version
+  1.1.1.0 the download wrote a relative name and the cleanup deleted a relative name, so with any
+  working directory other than the assembly folder the downloaded files piled up while the log
+  claimed they were deleted. Keep the file name pattern `yyyyMMdd_HHmmss.ics`, the cleanup finds
+  files by the extension only.
+- **`appsettings.json` is read without a base path, and that is fine.** `ReadConfiguration` calls
+  `AddJsonFile("appsettings.json", false, true)` on a bare `ConfigurationBuilder`. That looks like it
+  depends on the working directory, but `GetFileProvider` falls back to `AppContext.BaseDirectory`,
+  so the file is read next to the assembly. Verified by starting the published binary with `C:\` as
+  the working directory.
+- **The star rule.** Events whose summary starts with `*` are preliminary, usually entered by hand
+  in the Synology calendar. When `RemoveEntriesWithStar` is on, such an event is compared with the
+  event of the same summary without the star, and if exactly one exists and both start less than
+  four days apart, the preliminary one with the star is deleted. The four days are hard coded. Up to
+  version 1.1.1.0 the code deleted the corresponding event without the star instead, which threw
+  away the real appointment.
 - **One empty calendar for every write.** `CalDavSynologySyncerService.dummyCalendar` is a single
   empty `Ical.Net.Calendar` that is passed to `Client.AddOrUpdateEvent` for every event, the
   parameter only exists because the library needs a calendar to serialize into.

@@ -1,3 +1,12 @@
+// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="FileHelper.cs" company="Hämmer Electronics">
+//   Copyright (c) All rights reserved.
+// </copyright>
+// <summary>
+//   A class that contains helper methods for the file class.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
 namespace CalDavSynologySyncer.Helpers;
 
 /// <summary>

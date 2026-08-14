@@ -113,7 +113,7 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
             foreach (var file in directory.GetFiles("*.ics"))
             {
                 this.Logger.Information("Deleting file {FileName}", file.Name);
-                FileHelper.TryDelete(file.Name, this.Logger);
+                FileHelper.TryDelete(file.FullName, this.Logger);
             }
 
             // Iterate all possible calendars.
@@ -126,7 +126,7 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
                 if (string.IsNullOrWhiteSpace(filePath))
                 {
                     this.Logger.Error("The calendar file path is empty");
-                    return;
+                    continue;
                 }
 
                 // Read ICAL data.
@@ -139,7 +139,8 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
                 if (synologyCalendar is null)
                 {
                     this.Logger.Error("Synology calendar not found");
-                    return;
+                    FileHelper.TryDelete(filePath, this.Logger);
+                    continue;
                 }
 
                 // Iterate all calendars if more than one.
@@ -437,27 +438,26 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
                 if (this.ServiceConfiguration.RemoveEntriesWithStar)
                 {
                     var synologyEntriesWithStar = synologyCalendar.Events
-                        .Where(c => c is CalendarEvent && c is not null)
-                        .Where(c => c.Summary.StartsWith("*"))
+                        .Where(c => !string.IsNullOrWhiteSpace(c.Summary) && c.Summary.StartsWith('*'))
                         .ToList();
 
                     foreach (var synologyEntryWithStar in synologyEntriesWithStar)
                     {
                         var correspondingCalendarEntries = synologyCalendar.Events
-                            .Where(c => c is CalendarEvent && c is not null)
-                            .Where(c => c.Summary == synologyEntryWithStar.Summary.Substring(1));
+                            .Where(c => c.Summary == synologyEntryWithStar.Summary.Substring(1))
+                            .ToList();
 
                         // If there is no corresponding entry, skip the deletion.
-                        if (correspondingCalendarEntries.Count() == 0)
+                        if (correspondingCalendarEntries.Count == 0)
                         {
                             continue;
                         }
 
                         // If there is more than 1 corresponding entry, log a warning and skip the deletion.
-                        if (correspondingCalendarEntries.Count() > 1)
+                        if (correspondingCalendarEntries.Count > 1)
                         {
                             this.Logger.Warning("Found {Count} corresponding entries for entry with star {Summary}",
-                                correspondingCalendarEntries.Count(),
+                                correspondingCalendarEntries.Count,
                                 synologyEntryWithStar.Summary);
                             continue;
                         }
@@ -467,10 +467,10 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
                         var timeDifference = correspondingCalendarEntry.DtStart.AsDateTimeOffset - synologyEntryWithStar.DtStart.AsDateTimeOffset;
                         var timeDifferenceAbsolute = Math.Abs(timeDifference.TotalDays);
 
-                        // If the time difference is less than 4 days (absolute), delete the entry.
+                        // If the time difference is less than 4 days (absolute), delete the preliminary entry with the star.
                         if (timeDifferenceAbsolute < 4)
                         {
-                            var deletedEvent = await this.calDavClient.DeleteEvent(correspondingCalendarEntry);
+                            var deletedEvent = await this.calDavClient.DeleteEvent(synologyEntryWithStar);
 
                             if (!deletedEvent)
                             {
@@ -498,17 +498,20 @@ internal sealed class CalDavSynologySyncerService : BackgroundService
     /// Loads a calendar file for the given calendar url.
     /// </summary>
     /// <param name="calendarUrl">The calendar url.</param>
-    /// <returns>The file path the data is copied to.</returns>
+    /// <returns>The full file path the data is copied to.</returns>
     private async Task<string?> LoadCalendarFileFromServer(string calendarUrl)
     {
         try
         {
             using var httpClient = new HttpClient();
             using var stream = await httpClient.GetStreamAsync(calendarUrl);
-            var fileName = $"{DateTimeOffset.Now:yyyyMMdd_HHmmss}.ics";
-            using var fileStream = new FileStream(fileName, FileMode.OpenOrCreate);
+
+            // Write the file next to the assembly, that is the folder the cleanup at the start of every cycle scans.
+            var currentLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            var filePath = Path.Combine(currentLocation!, $"{DateTimeOffset.Now:yyyyMMdd_HHmmss}.ics");
+            using var fileStream = new FileStream(filePath, FileMode.Create);
             await stream.CopyToAsync(fileStream);
-            return fileName;
+            return filePath;
         }
         catch (Exception ex)
         {
