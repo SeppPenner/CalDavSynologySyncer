@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <NoWarn>NU1803</NoWarn>
@@ -12,23 +12,23 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="GitVersion.MsBuild" Version="6.0.5">
+        <PackageReference Include="GitVersion.MsBuild" Version="6.8.2">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="9.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.0" />
-        <PackageReference Include="Serilog" Version="4.2.0" />
-        <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+        <!-- Microsoft.Extensions.Configuration.Json and Microsoft.Extensions.Hosting are not referenced here,
+             they come with the ASP.NET Core shared framework and NuGet rejects the redundant reference (NU1510). -->
+        <PackageReference Include="Microsoft.Extensions.Hosting.Systemd" Version="10.0.11" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="10.0.11" />
+        <PackageReference Include="Serilog" Version="4.4.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
         <PackageReference Include="Serilog.Enrichers.Environment" Version="3.0.1" />
         <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
-        <PackageReference Include="Serilog.Extensions.Logging" Version="9.0.0" />
-        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
-        <PackageReference Include="Serilog.Sinks.Telegram.Alternative" Version="1.4.3" />
+        <PackageReference Include="Serilog.Extensions.Logging" Version="10.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
+        <PackageReference Include="Serilog.Sinks.Telegram.Alternative" Version="1.5.0" />
+        <!-- The latest version on nuget.org, 1.0.4 of the sibling repository is not published yet. -->
         <PackageReference Include="HaemmerElectronics.SeppPenner.CalDAVNet" Version="1.0.3" />
-        <PackageReference Include="System.Private.Uri" Version="4.3.2" />
     </ItemGroup>
 
 </Project>

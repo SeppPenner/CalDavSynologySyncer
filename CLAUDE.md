@@ -13,7 +13,7 @@ plus the zipped binaries under `Published/`. The repository is **not** a NuGet p
 One solution `src/CalDavSynologySyncer.sln` with exactly one project:
 
 - `src/CalDavSynologySyncer/CalDavSynologySyncer.csproj`, SDK `Microsoft.NET.Sdk.Web`, `OutputType`
-  `Exe`, target framework `net9.0`. The CalDAV access itself comes from the NuGet package
+  `Exe`, target framework `net10.0`. The CalDAV access itself comes from the NuGet package
   [HaemmerElectronics.SeppPenner.CalDAVNet](https://www.nuget.org/packages/HaemmerElectronics.SeppPenner.CalDAVNet/),
   which is the sibling repository `D:\Projekte\Github\CSharpUndVB\CalDAVNet`.
 
@@ -66,6 +66,14 @@ dotnet build src/CalDavSynologySyncer.sln -c Release
 - `NU1803` (HTTP source usage during restore) is the one warning suppressed via `NoWarn`. Fix
   warnings instead of extending that list. `NuGetAudit` and `NuGetAuditMode=all` are on, so a
   vulnerable transitive package fails the build too.
+- Do not reference a package that the ASP.NET Core shared framework already ships.
+  `Microsoft.Extensions.Configuration.Json` and `Microsoft.Extensions.Hosting` were referenced
+  explicitly until version 1.1.1.0, since .NET 10 that is `NU1510` and therefore a build error. The
+  types are available anyway, the reference was redundant.
+- The version of `HaemmerElectronics.SeppPenner.CalDAVNet` is 1.0.3, the newest one on nuget.org.
+  Version 1.0.4 exists in the sibling repository, drops `net9.0` and updates to Ical.Net 5.2.3,
+  which is a breaking change for `CalDavSynologySyncerService`. Do not bump the reference before
+  that package is published and the Ical.Net 5 migration is done.
 - Versions come from GitVersion.MsBuild out of the git tags, for example `1.1.2-1` for the first
   commit after tag `1.1.1`. Never edit a version property or an assembly version by hand.
 - Restore needs nuget.org. If a private feed is configured globally on the machine and answers 404
@@ -163,8 +171,6 @@ Do not silently "clean up" these, they are existing behaviour:
 - **The update check compares 30 properties by hand.** `TryRunServiceTask` has one `if` per
   `CalendarEvent` property and sets `needsUpdate`. `Parent` is commented out on purpose, comparing
   it would report a difference for every event. Adding a property means adding another `if`.
-- **`System.Private.Uri` is pinned as a top level package.** Nothing in the dependency graph asks
-  for it any more, the reference is a leftover from an audit warning.
 - **The Dockerfiles do not build.** Both consist of `FROM`, `WORKDIR /app`, `COPY publish .`, the
   environment and the `CMD`. `dotnet publish --output publish/` has to run first, in
   `src/CalDavSynologySyncer`, which is also the build context. The two files are identical except
