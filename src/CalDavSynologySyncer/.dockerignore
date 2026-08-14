@@ -1,0 +1,13 @@
+# Docker only reads the .dockerignore of the build context, and the build context of both
+# Dockerfiles is this folder, not src. The file src/.dockerignore has no effect on the images.
+
+# The local development configuration holds real credentials. The Web SDK copies every
+# appsettings.*.json into the publish output, so it has to be kept out of the context here.
+appsettings.Development.json
+publish/appsettings.Development.json
+
+# Build output and editor state, none of it belongs into an image.
+bin/
+obj/
+.vs/
+*.user

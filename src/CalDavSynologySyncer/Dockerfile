@@ -7,7 +7,7 @@ ENV ASPNETCORE_URLS="http://*:5000" \
     DOTNET_RUNNING_IN_CONTAINER=true \
     TZ=Europe/Berlin \
     LANG=de_DE.UTF-8 \
-    LANGUAGE=${LANG} \
-    LC_ALL=${LANG}
+    LANGUAGE=de_DE.UTF-8 \
+    LC_ALL=de_DE.UTF-8
 
 CMD ["dotnet", "CalDavSynologySyncer.dll"]

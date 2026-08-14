@@ -180,13 +180,15 @@ Do not silently "clean up" these, they are existing behaviour:
   untracked. Never `git add -A` in this repository without looking at what that collects.
 - **`src/.dockerignore` is in the wrong folder.** Docker only reads the `.dockerignore` of the build
   context, and the build context is `src/CalDavSynologySyncer`, not `src`. The file has no effect on
-  the images.
+  the images, the one next to the two Dockerfiles has.
 - **`appsettings.Development.json` is gitignored but not excluded from publish.** The Web SDK copies
   every `appsettings.*.json` into the publish output, so a local development configuration ends up
-  in the zips and in the Docker images. That is how real credentials got into
+  in the publish folder, and from there in the zips. That is how real credentials got into
   `Published/1.1.1/win-x64.zip` and into all four published images (`caldavsynologysyncer` and
-  `caldavsynologysyncer-arm`, tags `1.1.0` and `1.1.1`), see the changelog of version 1.1.2.0.
-  Check the publish output for that file before building an image or a zip.
+  `caldavsynologysyncer-arm`, tags `1.1.0` and `1.1.1`), see the changelog of version 1.1.2.0. The
+  images are covered by `src/CalDavSynologySyncer/.dockerignore` since version 1.1.2.0, **the zips
+  are not**: delete that file from the publish output before zipping, every single time, and check
+  the zip content before committing it.
 - **Tracked release binaries.** Every release adds a folder `Published/<version>/` with
   `win-x64.zip` and `linux-arm64.zip`, roughly one megabyte each. Version 1.0.0 used one single
   `publish.zip` instead. There is no zip for `linux-x64`, that platform only gets a Docker image.
@@ -208,9 +210,11 @@ Do not silently "clean up" these, they are existing behaviour:
    existing tags are lightweight tags, create new ones the same way. The tag has to exist **before**
    the binaries are built, otherwise GitVersion stamps a prerelease version such as `1.1.2-1` into
    the shipped assembly.
-6. Run `buildForWindows.bat` and `buildForLinuxArm64.bat`, zip the two publish outputs into
-   `Published/<version>/win-x64.zip` and `Published/<version>/linux-arm64.zip` and commit them.
-   Check the zip content before committing, the publish folder is reused between runs.
+6. Run `buildForWindows.bat` and `buildForLinuxArm64.bat`, delete
+   `src/CalDavSynologySyncer/publish/appsettings.Development.json`, zip the two publish outputs into
+   `Published/<version>/win-x64.zip` and `Published/<version>/linux-arm64.zip` and commit them. List
+   the zip content before committing, the publish folder is reused between runs and the development
+   configuration is copied into it on every publish.
 7. Push the commits and the tag.
 8. `buildAndUploadDocker.bat` and `buildAndUploadDockerForArm.bat` publish, build the image, log in
    with `DOCKERHUB_CLI_TOKEN` from the environment and push to Docker Hub. Never run them unless
