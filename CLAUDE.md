@@ -10,12 +10,18 @@ and [sepppenner/caldavsynologysyncer-arm](https://hub.docker.com/repository/dock
 plus the zipped binaries under `Published/`. The repository is **not** a NuGet package: no
 `GeneratePackageOnBuild`, no push script for nuget.org.
 
-One solution `src/CalDavSynologySyncer.sln` with exactly one project:
+One solution `src/CalDavSynologySyncer.sln` with exactly two projects:
 
 - `src/CalDavSynologySyncer/CalDavSynologySyncer.csproj`, SDK `Microsoft.NET.Sdk.Web`, `OutputType`
   `Exe`, target framework `net10.0`. The CalDAV access itself comes from the NuGet package
   [HaemmerElectronics.SeppPenner.CalDAVNet](https://www.nuget.org/packages/HaemmerElectronics.SeppPenner.CalDAVNet/),
   which is the sibling repository `D:\Projekte\Github\CSharpUndVB\CalDAVNet`.
+- `src/CalDavSynologySyncer.Tests/CalDavSynologySyncer.Tests.csproj`, MSTest, added in version
+  1.1.2.0.
+
+The solution knows the four configurations `Debug` and `Release` times `Any CPU` and `x64`, both
+projects build as `Any CPU` in all of them. `dotnet sln add` invents an additional `x86`
+configuration, that one was removed by hand.
 
 Layout inside `src/CalDavSynologySyncer`:
 
@@ -43,6 +49,27 @@ Layout inside `src/CalDavSynologySyncer`:
 - `Dockerfile` and `Dockerfile.armv7`: the two images. They only copy a finished publish output,
   they do not build.
 
+Layout inside `src/CalDavSynologySyncer.Tests`:
+
+- `SystemGlobalsTests.cs`: the four units of the heartbeat formatting, the dividers that are compared
+  with greater than only, the rounding and the culture dependent decimal separator.
+- `SyncerConfigurationTests.cs`: the valid configuration, one test per failing check with the exact
+  message, and the settings that are deliberately not checked.
+- `FileHelperTests.cs`: the deleted file, the missing file that is still reported as deleted, the
+  open file and the directory. Every test works in its own directory below `Path.GetTempPath()` and
+  removes it in `[TestCleanup]`.
+- `LoggerConfigTests.cs`: the rejected type including its `ParamName`, the enriched logger type and
+  machine name, the minimum level and the `Microsoft` override.
+- `DateTimeOffsetExtensionsTests.cs` and `ObjectExtensionsTests.cs`: the two extensions, including
+  the default timestamp that makes the first heartbeat fire and the lazy enumerable that is only
+  pulled once.
+- `TestDataProvider.cs`: the valid configuration, the logger factory and the temp directory helper.
+  `CollectingSink.cs`: a Serilog sink that keeps the events in memory, that is how a test sees what
+  the code logged. `GlobalUsings.cs`: all usings of the test project.
+
+The service class itself is `internal sealed` and needs a CalDAV server plus an ICS url, it has no
+tests. Do not add an `InternalsVisibleTo` to reach it, test the pieces it uses instead.
+
 Repository root: `README.md` (badges and the framework list), `HowToUse.md` (the only usage
 documentation, with the annotated JSON sample and the Docker commands), `Changelog.md`,
 `License.txt` (MIT), the four batch files, `Published/<version>/*.zip` (the tracked release
@@ -56,11 +83,15 @@ There is no `.github` folder, no pipeline file, no `Updating.md` and no screensh
 dotnet build src/CalDavSynologySyncer.sln -c Release
 ```
 
-- Single target framework, no multi-targeting. `RuntimeIdentifiers` are not in the project file, the
-  four batch files pass `-r` on the command line: `win-x64`, `linux-x64` (Docker), `linux-arm`
-  (Docker ARM) and `linux-arm64`.
-- All build properties live directly in the one `.csproj`. There is **no**
-  `Directory.Build.props` in this repository.
+```powershell
+dotnet test src/CalDavSynologySyncer.sln -c Release
+```
+
+- Single target framework in both projects, no multi-targeting. `RuntimeIdentifiers` are not in the
+  project file, the four batch files pass `-r` on the command line: `win-x64`, `linux-x64` (Docker),
+  `linux-arm` (Docker ARM) and `linux-arm64`.
+- All build properties live directly in the two `.csproj` files and are duplicated there. There is
+  **no** `Directory.Build.props` in this repository.
 - `TreatWarningsAsErrors` is enabled, so every warning breaks the build, NuGet warnings (`NU****`)
   from restore included. A clean build reports zero warnings, keep it that way.
 - `NU1803` (HTTP source usage during restore) is the one warning suppressed via `NoWarn`. Fix
@@ -79,9 +110,14 @@ dotnet build src/CalDavSynologySyncer.sln -c Release
 - Restore needs nuget.org. If a private feed is configured globally on the machine and answers 404
   for public packages, restore fails with `NU1301`. Then build with an explicit source:
   `dotnet build src/CalDavSynologySyncer.sln --source https://api.nuget.org/v3/index.json`.
-- There is no test project, so there is nothing to run with `dotnet test`. A behaviour change is
-  verified by running the service against a CalDAV server, or at least by starting the published
-  binary and reading the log output. Never claim a run happened without running it.
+- Tests are MSTest, in the single test project `src/CalDavSynologySyncer.Tests`, which follows the
+  same package set as the sibling repositories: `Microsoft.NET.Test.Sdk`, `MSTest.TestAdapter`,
+  `MSTest.TestFramework`, `coverlet.collector` and `GitVersion.MsBuild`. `dotnet test` runs 34 tests,
+  they need no network and no CalDAV server. Use `Assert.ThrowsExactly`, `Assert.ThrowsException` is
+  gone in MSTest 4. Never claim a test run happened without running it.
+- The synchronisation itself has no test coverage, it needs a server to answer. A behaviour change
+  there is verified by running the service against a CalDAV server, or at least by starting the
+  published binary and reading the log output.
 - The service needs a reachable CalDAV server and a reachable ICS url. With the placeholder
   `appsettings.json` it starts, logs the heartbeat and logs an error per cycle, that is the cheapest
   smoke test.
